@@ -1,0 +1,95 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn,
+button.btn {
+  background-color: none;
+  color: rgba(96, 112, 255, 1);
+  transition: 0.5s;
+}
+
+a.btn:hover,
+button.btn:hover {
+  background: rgba(96, 112, 255, 1);
+  color: #fff;
+}
+
+a.btn:active,
+button.btn:active {
+  background: rgba(34, 48, 210, 1);
+  color: #fff;
+}
+
+/* Start Navbar */
+a.navbar-brand {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+a.nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+/* Start Headline */
+.headline {
+  background-image: url('./img/Header-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 600px;
+}
+
+.headline h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.3700000047683716px;  
+}
+
+.headline p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+.headline a.contact-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 991.99px) {
+  .headline h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .headline p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headline {
+    background-image: url('./img/Header-bg-mobile.png');
+    background-size: cover;
+  }
+}
