@@ -19,14 +19,15 @@ Take a look now!
  2) Double click on index.html
  3) Enjoy
 # Dome
-[Live Demo](https://ahmed-alfaouq.github.io/My-Portfolio/)
+[Live Demo](https://ahmed-alfaouq.github.io/My-Portfolio2/)
 # Prerequisites
+ You need some knowldge in programming to work on this project
 # Setup
-# Usage
-# Run tests
-# Deployment
+ 1) open command line
+ 2) write "git clone https://github.com/Ahmed-Alfaouq/My-Portfolio.git"
+ 3) Enjoy
 # Authors
- :bearded_person: **Author 1**
+ :bearded_person: **Ahmed Omar**
   - Github: [@Ahmed-Alfarouq](https://github.com/Ahmed-Alfaouq)
   - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-omar912ba9199/)
   - Twitter: [@twitter](https://twitter.com/mediocre23534)
