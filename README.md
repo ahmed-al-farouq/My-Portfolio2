@@ -1,6 +1,6 @@
 # My-Portfolio2
 It's my portfolio. Here you will find my projects and experience
-![page image](imags/screenshot.png)
+![page image](img/screenshot.png)
 Take a look now!
 
 # Build With
