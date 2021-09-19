@@ -1,6 +1,6 @@
 # My-Portfolio2
 It's my portfolio. Here you will find my projects and experience
-![page image](images/screenshot.png)
+![page image](imags/screenshot.png)
 Take a look now!
 
 # Build With
@@ -11,7 +11,7 @@ Take a look now!
  
 # Getting Started
  1) open command line
- 2) write "git clone https://github.com/Ahmed-Alfaouq/My-Portfolio.git"
+ 2) write "git clone https://github.com/Ahmed-Alfaouq/My-Portfolio2.git"
  3) Enjoy
  
  Or
