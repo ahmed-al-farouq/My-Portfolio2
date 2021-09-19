@@ -15,13 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </head>
-  <body>
-        <!-- <i class="fab fa-github"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-angellist"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-medium-m"></i> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3">
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light pt-3 fixed-top mb-5">
       <div class="container-fluid px-5">
         <a class="navbar-brand text-primary ps-lg-5" href="#">Ahmed Omar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,179 +25,36 @@
         <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 mx-sm-auto mx-auto pe-lg-5 me-lg-5  w-25 justify-content-lg-evenly  text-sm-center">
             <li class="nav-item me-lg-3 mt-lg-0 mt-sm-2">
-              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+              <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item me-lg-3 mt-lg-0 mt-sm-2">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item mt-lg-0 mt-sm-2">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <section class="container-fluid headline ps-lg-5 ps-sm-4 ps-0 pt-sm-5 p-0">
-      <div class="row ps-lg-5 ps-sm-4 ps-0 pt-md-5 pt-sm-4 pt-5">
-        <h1 class="col-lg-5 col-md-8 col-sm-10 ps-md-5 mt-5">
-          I’m Ahmed Omar
-          Glad to see you!
-        </h1>
-        <p class="col-lg-9 col-md-10 col-sm-11 ps-md-5">
-          I’m a software developer! 
-          I can help you build a product , 
-          feature or website Look through some of my work and experience! 
-          If you like what you see and have a project you need coded, 
-          don’t hestiate to contact me.
-        </p>
-        <a href="#" class="contact-link ps-md-5">
-          LET’S CONNECT
-        </a>
-        <ul class="icons list-unstyled d-flex justify-content-between ps-md-5 col-xl-3 col-lg-3 col-sm-3 col-5 mt-3 h5">
-          <li>
-            <a href="#" class="text-secondary">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-secondary">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-secondary">
-            <i class="fab fa-angellist"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-secondary">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="text-secondary">
-              <i class="fab fa-medium-m"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="projects container mt-5">
-      <div class="card mb-5 position-relative">
-        <div class="row justify-content-center">
-          <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12">
-            <img src="./img/Snapshoot-Portfolio.png"  class="img-fluid w-100" alt="project1">
-          </div>
-          <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
-            <h2 class="card-title">Tonic</h2>
-            <ul class="list-unstyled d-flex justify-content-between w-75 w-sm-100">
-              <li>CANOP</li>
-              <li>BACK END DEV</li>
-              <li>2015</li>
-            </ul>
-            <p class="card-text">
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-            <ul class="list-unstyled d-flex justify-content-evenly w-50">
-              <li class="text-primary">html</li>
-              <li class="text-primary">css</li>
-              <li class="text-primary">javascript</li>
-            </ul>
-            <button type="button" class="btn border-1 border-primary rounded w-25 p-2" data-bs-toggle="modal" data-bs-target="#Tonic">
-              see project
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="card mt-5">
-        <div class="row justify-content-center">
-          <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
-            <h2 class="card-title">Multi-Post Stories</h2>
-            <ul class="list-unstyled d-flex justify-content-between w-75">
-              <li>FACEBOOK</li>
-              <li>FULL STACK DEV</li>
-              <li>2015</li>
-            </ul>
-            <p class="card-text">
-              Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
-            </p>
-            <ul class="list-unstyled d-flex justify-content-evenly w-75">
-              <li class="text-primary">html</li>
-              <li class="text-primary">css</li>
-              <li class="text-primary">javascript</li>
-              <li class="text-primary">Ruby on rails</li>
-            </ul>
-            <button class="btn border-1 border-primary rounded w-25 p-2">See Project</button>
-          </div>
-          <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12">
-            <img src="./img/Snapshoot-Portfolio2.png"  class="img-fluid w-100" alt="project1">
-          </div>
-        </div>
-      </div>
-      <div class="card mt-5 pt-5">
-        <div class="row justify-content-center">
-          <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12">
-            <img src="./img/Snapshoot-Portfolio3.png"  class="img-fluid w-100" alt="project1">
-          </div>
-          <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
-            <h2 class="card-title">Multi-Post Stories</h2>
-            <ul class="list-unstyled d-flex justify-content-between w-75">
-              <li>CANOP</li>
-              <li>BACK END DEV</li>
-              <li>2015</li>
-            </ul>
-            <p class="card-text">
-              Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
-            </p>
-            <ul class="list-unstyled d-flex justify-content-evenly w-75">
-              <li class="text-primary">html</li>
-              <li class="text-primary">Ruby on rails</li>
-              <li class="text-primary">css</li>
-              <li class="text-primary">javascript</li>
-            </ul>
-            <button class="btn border-1 border-primary rounded w-25 p-2">See Project</button>
-          </div>
-        </div>
-      </div>
-      <div class="card mt-5 pt-5">
-        <div class="row justify-content-center">
-          <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
-            <h2 class="card-title">Tonic</h2>
-            <ul class="list-unstyled d-flex justify-content-between w-75">
-              <li>UBER</li>
-              <li>FRONT END DEV</li>
-              <li>2015</li>
-            </ul>
-            <p class="card-text">
-              A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
-            </p>
-            <ul class="list-unstyled d-flex justify-content-evenly w-50">
-              <li class="text-primary">html</li>
-              <li class="text-primary">css</li>
-              <li class="text-primary">javascript</li>
-            </ul>
-            <button class="btn border-1 border-primary rounded w-25 p-2">See Project</button>
-          </div>
-          <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12">
-            <img src="./img/Snapshoot-Portfolio4.png"  class="img-fluid w-100" alt="project1">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container about my-5 mt-sm-0">
-      <div class="row justify-content-center">
-        <div class="content col-lg-6 col-md-10 col-sm-11 col-12">
-          <h1>About Myself</h1>
-          <p>
-            Hello I’m a software developer! I can help you build a product , 
+    <main>
+      <section class="container-fluid headline ps-lg-5 ps-sm-4 ps-0 pt-sm-5 p-0">
+        <div class="row ps-lg-5 ps-sm-4 ps-0 pt-md-5 pt-sm-4 pt-5 ps-1">
+          <h1 class="col-lg-5 col-md-8 col-sm-10 ps-md-5 mt-5">
+            I’m Ahmed Omar
+            Glad to see you!
+          </h1>
+          <p class="col-lg-9 col-md-10 col-sm-11 ps-md-5">
+            I’m a software developer! 
+            I can help you build a product , 
             feature or website Look through some of my work and experience! 
-            If you like what you see and have a project you need coded, don’t hestiate to contact me.
+            If you like what you see and have a project you need coded, 
+            don’t hestiate to contact me.
           </p>
-          <a href="#">LET’S CONNECT</a>
-          <ul class="list-unstyled d-flex justify-content-between col-xl-3 col-lg-3 col-sm-3 col-5 mt-3 h5">
+          <a href="#" class="contact-link ps-md-5">
+            LET’S CONNECT
+          </a>
+          <ul class="icons list-unstyled d-flex justify-content-between ps-md-5 col-xl-3 col-lg-3 col-sm-3 col-5 mt-3 h5">
             <li>
               <a href="#" class="text-secondary">
                 <i class="fab fa-github"></i>
@@ -229,114 +81,270 @@
               </a>
             </li>
           </ul>
-          <button class="btn border-1 border-primary rounded p-2">
-            Get My Resume
-          </button>
-        </div>  
-        <div class="skills col-lg-6 col-md-10 col-sm-11 col-12 mt-sm-5 mt-5 mt-lg-0">
-          <div class="d-flex justify-content-between">
-            <span class="title">languages</span>
-            <button class="btn icon" type="button" data-bs-toggle="collapse" data-bs-target="#languages" aria-expanded="false" aria-controls="languages">
-              <i class="fas fa-angle-down"></i>
-            </button>
-          </div>
-          <div class="col-12">
-            <div class="collapse show" id="languages">
-              <ul class="list-unstyled d-flex mt-3 w-75">
-                <li class="d-flex flex-column me-3 align-items-center">
-                  <img src="./img/js.png" alt="js">
-                  <span>JavaScript</span>
-                </li>
-                <li class="d-flex flex-column me-3 align-items-center">
-                  <img src="./img/html.png" alt="html">
-                  <span>HTML</span>
-                </li>
-                <li class="d-flex flex-column align-items-center">
-                  <img src="./img/css.png" alt="css">
-                  <span>CSS</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+        </div>
+      </section>
 
-          <div class="d-flex justify-content-between mt-3">
-            <span class="title">frameworks</span>
-            <button class="btn icon" type="button" data-bs-toggle="collapse" data-bs-target="#frameworks" aria-expanded="false" aria-controls="frameworks">
-              <i class="fas fa-angle-down"></i>
-            </button>
-          </div>
-          <div class="col-12">
-            <div class="collapse" id="frameworks">
-              <ul class="list-unstyled d-flex mt-4 w-75">
-                <li class="d-flex flex-column me-3 align-items-center">
-                  <img src="./img/reactjs.png" alt="reactjs">
-                  <span>React JS</span>
-                </li>
-                <li class="d-flex flex-column me-3 align-items-center">
-                  <img src="./img/ruby-on-rails.png" alt="ruby-on-rails">
-                  <span>Ruby on Rails</span>
-                </li>
-                <li class="d-flex flex-column align-items-center">
-                  <img src="./img/bootstrap.png" alt="bootstrap">
-                  <span>Bootstrap</span>
-                </li>
-              </ul>
+      <section class="projects container mt-5" id="portfolio">
+        <div class="card mb-5 position-relative">
+          <div class="row justify-content-center">
+            <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12">
+              <img src="./img/Snapshoot-Portfolio.png"  class="img-fluid w-100" alt="project1">
             </div>
-          </div>
-
-          <div class="d-flex justify-content-between mt-4">
-            <span class="title">Skills</span>
-            <button class="btn icon" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false" aria-controls="skills">
-              <i class="fas fa-angle-down"></i>
-            </button>
-          </div>
-          <div class="col-12">
-            <div class="collapse multi-collapse" id="skills">
-              <ul class="list-unstyled d-flex mt-3 w-50">
-                <li class="d-flex flex-column me-3 align-items-center">
-                  <img src="./img/github.png" alt="github">
-                  <span>Github</span>
-                </li>
-                <li class="d-flex flex-column me-3 align-items-center">
-                  <img src="./img/photoshop.png" alt="photoshop">
-                  <span>Photoshop</span>
-                </li>
-                <li class="d-flex flex-column align-items-center">
-                  <img src="./img/xd.png" alt="xd">
-                  <span>Adobe XD</span>
-                </li>
+            <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
+              <h2 class="card-title">Tonic</h2>
+              <ul class="list-unstyled d-flex justify-content-between w-75 w-sm-100">
+                <li>CANOP</li>
+                <li>BACK END DEV</li>
+                <li>2015</li>
               </ul>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-evenly w-50">
+                <li class="text-primary">html</li>
+                <li class="text-primary">css</li>
+                <li class="text-primary">javascript</li>
+              </ul>
+              <button type="button" class="btn border-1 border-primary rounded w-25 p-2" data-bs-toggle="modal" data-bs-target="#card0">
+                see project
+              </button>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="contact-us bg-primary text-center py-5">
-      <div class="row">
-        <h2 class="text-white  mt-sm-1 mt-5">Contact me</h2>
-        <p class="text-white col-sm-7 col-12 mx-auto my-1 mb-3">
-          If you have an application you are interested in developing, 
-          a feature that you need built or a project that needs coding. 
-          I’d love to help with it 
-        </p>
-        <form action="" class="col-sm-7 col-11 mx-auto">
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="name" placeholder="Ahmed Omar">
-            <label for="name">Your Name</label>
+        <div class="card mt-5 align-items-center">
+          <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12 d-lg-none">
+            <img src="./img/Snapshoot-Portfolio2.png"  class="img-fluid w-100" alt="project1">
           </div>
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-            <label for="email">Email address</label>
+          <div class="row justify-content-center">
+            <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
+              <h2 class="card-title">Multi-Post Stories</h2>
+              <ul class="list-unstyled d-flex justify-content-between w-75">
+                <li>FACEBOOK</li>
+                <li>FULL STACK DEV</li>
+                <li>2015</li>
+              </ul>
+              <p class="card-text">
+                Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-evenly w-75">
+                <li class="text-primary">html</li>
+                <li class="text-primary">css</li>
+                <li class="text-primary">javascript</li>
+                <li class="text-primary">Ruby on rails</li>
+              </ul>
+              <button type="button" class="btn border-1 border-primary rounded w-25 p-2" data-bs-toggle="modal" data-bs-target="#card1">
+                see project
+              </button>
+            </div>
+            <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12 d-lg-block d-none">
+              <img src="./img/Snapshoot-Portfolio2.png"  class="img-fluid w-100" alt="project1">
+            </div>
           </div>
-          <div class="mb-3">
-            <textarea class="form-control" id="message" rows="3" placeholder="Type Your message"></textarea>
+        </div>
+        <div class="card mt-5">
+          <div class="row justify-content-center">
+            <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12">
+              <img src="./img/Snapshoot-Portfolio3.png"  class="img-fluid w-100" alt="project1">
+            </div>
+            <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
+              <h2 class="card-title">Multi-Post Stories</h2>
+              <ul class="list-unstyled d-flex justify-content-between w-75">
+                <li>CANOP</li>
+                <li>BACK END DEV</li>
+                <li>2015</li>
+              </ul>
+              <p class="card-text">
+                Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-evenly w-75">
+                <li class="text-primary">html</li>
+                <li class="text-primary">Ruby on rails</li>
+                <li class="text-primary">css</li>
+                <li class="text-primary">javascript</li>
+              </ul>
+              <button type="button" class="btn border-1 border-primary rounded w-25 p-2" data-bs-toggle="modal" data-bs-target="#card2">
+                see project
+              </button>
+            </div>
           </div>
-          <div class="col-auto">
-            <button type="submit" class="btn bg-white text-primary rounded mb-3">Get In Touch</button>
+        </div>
+        <div class="card mt-5">
+          <div class="row justify-content-center">
+            <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12 d-lg-none">
+              <img src="./img/Snapshoot-Portfolio4.png"  class="img-fluid w-100" alt="project1">
+            </div>
+            <div class="card-body col-xxl-5 col-lg-6 col-md-10 col-sm-11 col-12 flex-shrink-0 flex-grow-0">
+              <h2 class="card-title">Tonic</h2>
+              <ul class="list-unstyled d-flex justify-content-between w-75">
+                <li>UBER</li>
+                <li>FRONT END DEV</li>
+                <li>2015</li>
+              </ul>
+              <p class="card-text">
+                A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-evenly w-50">
+                <li class="text-primary">html</li>
+                <li class="text-primary">css</li>
+                <li class="text-primary">javascript</li>
+              </ul>
+              <button type="button" class="btn border-1 border-primary rounded w-25 p-2" data-bs-toggle="modal" data-bs-target="#card3">
+                see project
+              </button>
+            </div>
+            <div class="img-cotainer col-xxl-4 col-lg-6 col-md-10 col-sm-11 col-12 d-lg-block d-none">
+              <img src="./img/Snapshoot-Portfolio4.png"  class="img-fluid w-100" alt="project1">
+            </div>
           </div>
-        </form>
-      </div>
-    </section>
+        </div>
+      </section>
+
+      <section class="container about my-5" id="about">
+        <div class="row justify-content-center">
+          <div class="content col-lg-6 col-md-10 col-sm-11 col-12">
+            <h1>About Myself</h1>
+            <p>
+              Hello I’m a software developer! I can help you build a product , 
+              feature or website Look through some of my work and experience! 
+              If you like what you see and have a project you need coded, don’t hestiate to contact me.
+            </p>
+            <a href="#">LET’S CONNECT</a>
+            <ul class="list-unstyled d-flex justify-content-between col-xl-3 col-lg-3 col-sm-3 col-5 mt-3 h5">
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-secondary">
+                <i class="fab fa-angellist"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-secondary">
+                  <i class="fab fa-medium-m"></i>
+                </a>
+              </li>
+            </ul>
+            <button class="btn border-1 border-primary rounded p-2">
+              Get My Resume
+            </button>
+          </div>  
+          <div class="skills col-lg-6 col-md-10 col-sm-11 col-12 mt-sm-5 mt-5 mt-lg-0">
+            <div class="d-flex justify-content-between">
+              <span class="title">languages</span>
+              <button class="btn icon" type="button" data-bs-toggle="collapse" data-bs-target="#languages" aria-expanded="false" aria-controls="languages">
+                <i class="fas fa-angle-down"></i>
+              </button>
+            </div>
+            <div class="col-12">
+              <div class="collapse show" id="languages">
+                <ul class="list-unstyled d-flex mt-3 w-75">
+                  <li class="d-flex flex-column me-3 align-items-center">
+                    <img src="./img/js.png" alt="js">
+                    <span>JavaScript</span>
+                  </li>
+                  <li class="d-flex flex-column me-3 align-items-center">
+                    <img src="./img/html.png" alt="html">
+                    <span>HTML</span>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <img src="./img/css.png" alt="css">
+                    <span>CSS</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+              <span class="title">frameworks</span>
+              <button class="btn icon" type="button" data-bs-toggle="collapse" data-bs-target="#frameworks" aria-expanded="false" aria-controls="frameworks">
+                <i class="fas fa-angle-down"></i>
+              </button>
+            </div>
+            <div class="col-12">
+              <div class="collapse" id="frameworks">
+                <ul class="list-unstyled d-flex mt-4 w-75">
+                  <li class="d-flex flex-column me-3 align-items-center">
+                    <img src="./img/reactjs.png" alt="reactjs">
+                    <span>React JS</span>
+                  </li>
+                  <li class="d-flex flex-column me-3 align-items-center">
+                    <img src="./img/ruby-on-rails.png" alt="ruby-on-rails">
+                    <span>Ruby on Rails</span>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <img src="./img/bootstrap.png" alt="bootstrap">
+                    <span>Bootstrap</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+              <span class="title">Skills</span>
+              <button class="btn icon" type="button" data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false" aria-controls="skills">
+                <i class="fas fa-angle-down"></i>
+              </button>
+            </div>
+            <div class="col-12">
+              <div class="collapse multi-collapse" id="skills">
+                <ul class="list-unstyled d-flex mt-3 w-50">
+                  <li class="d-flex flex-column me-3 align-items-center">
+                    <img src="./img/github.png" alt="github">
+                    <span>Github</span>
+                  </li>
+                  <li class="d-flex flex-column me-3 align-items-center">
+                    <img src="./img/photoshop.png" alt="photoshop">
+                    <span>Photoshop</span>
+                  </li>
+                  <li class="d-flex flex-column align-items-center">
+                    <img src="./img/xd.png" alt="xd">
+                    <span>Adobe XD</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us bg-primary text-center py-5" id="contact">
+        <div class="row">
+          <h2 class="text-white  mt-sm-1 mt-5">Contact me</h2>
+          <p class="text-white col-sm-7 col-12 mx-auto my-1 mb-3">
+            If you have an application you are interested in developing, 
+            a feature that you need built or a project that needs coding. 
+            I’d love to help with it 
+          </p>
+          <form action="" class="col-sm-7 col-11 mx-auto">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Ahmed Omar">
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <label for="email">Email address</label>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="message" rows="3" placeholder="Type Your message"></textarea>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn bg-white text-primary rounded mb-3">Get In Touch</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>

@@ -149,48 +149,9 @@ a.nav-link {
   .card ul:first-of-type li:not(:first-of-type)::before {
     margin: 0 10px 1px 0;
   }
-
-  .card:nth-child(2) .img-cotainer {
-    transform: translate(0px, -295px);
-  }
-
-  .card:nth-child(4) .img-cotainer {
-    transform: translate(0, -300px);
-  }
-
-  .card:nth-child(2) .card-body {
-    transform: translate(0, 367px);
-  }
-
-  .card:nth-child(4) .card-body {
-    transform: translate(0, 340px);
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991.99px) {
-  .card:nth-child(2) .card-body,
-  .card:nth-child(4) .card-body {
-    transform: translate(0, 440px);
-  }
 }
 
 @media screen and (max-width: 576px) {
-  .card:nth-child(2) .img-cotainer {
-    transform: translate(0px, -373px);
-  }
-
-  .card:nth-child(4) .img-cotainer {
-    transform: translate(0, -360px);
-  }
-
-  .card:nth-child(2) .card-body {
-    transform: translate(0, 295px);
-  }
-
-  .card:nth-child(4) .card-body {
-    transform: translate(0, 240px);
-  }
-
   .card .card-body button.btn {
     width: 115px !important;
   }
@@ -237,7 +198,8 @@ a.nav-link {
 
 /* Start Modal */
 .modal .modal-dialog {
-  max-width: 991px;
+  max-width: 90%;
+  margin: 10px auto;
 }
 
 .modal ul.top-list {
@@ -257,14 +219,54 @@ a.nav-link {
   max-height: 720px;
 }
 
-.modal .modal-body .content ul li {
-  width: calc(100% / 3);
-  margin-bottom: 10px;
+.modal .modal-body .content p {
+  width: 470px;
 }
 
-@media screen and (max-width: 576px) {
+.modal .modal-body .content .right-part {
+  width: 320px;
+}
+
+.modal .modal-body .content .right-part ul li {
+  width: calc(100% / 3);
+  margin-bottom: 10px;
+  background: #EBEBFF;
+}
+
+.modal button img {
+  width: 15px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal .modal-body .content p {
+    width: 649px;
+  }
+}
+
+@media screen and (max-width: 991.99px) {
   .modal ul.top-list {
     width: 96%;
     margin-left: 1px;
+  }
+
+  .modal img {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .modal .modal-body .content p {
+    width: 100%  !important;
+  }
+
+  .modal .content .right-part {
+    width: 90% !important;
+  }
+
+  .modal .content .right-part ul {
+    width: 100%;
+  }
+
+  .modal .content .right-part .btns button{
+    width: 130px;
   }
 }
