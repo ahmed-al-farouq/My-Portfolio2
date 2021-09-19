@@ -24,7 +24,7 @@ Take a look now!
  You need some knowldge in programming to work on this project
 # Setup
  1) open command line
- 2) write "git clone https://github.com/Ahmed-Alfaouq/My-Portfolio.git"
+ 2) write "git clone https://github.com/Ahmed-Alfaouq/My-Portfolio2.git"
  3) Enjoy
 # Authors
  :bearded_person: **Ahmed Omar**
