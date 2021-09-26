@@ -19,7 +19,7 @@ Take a look now!
  2) Double click on index.html
  3) Enjoy
 # Dome
-[Live Demo](https://ahmed-alfaouq.github.io/My-Portfolio2/)
+[Live Demo](https://ahmed-al-farouq.github.io/My-Portfolio2/)
 # Prerequisites
  You need some knowldge in programming to work on this project
 # Setup
@@ -28,9 +28,9 @@ Take a look now!
  3) Enjoy
 # Authors
  :bearded_person: **Ahmed Omar**
-  - Github: [@Ahmed-Alfarouq](https://github.com/Ahmed-Alfaouq)
-  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-omar912ba9199/)
-  - Twitter: [@twitter](https://twitter.com/mediocre23534)
+  - Github: [@Ahmed-Alfarouq](https://github.com/ahmed-al-farouq)
+  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alfarouq/)
+  - Twitter: [@twitter](https://twitter.com/ahmed_al_farouq)
 
 # :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
