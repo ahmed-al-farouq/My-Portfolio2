@@ -29,7 +29,7 @@ Take a look now!
 # Authors
  :bearded_person: **Ahmed Omar**
   - Github: [@Ahmed-Alfarouq](https://github.com/ahmed-al-farouq)
-  - LinkedIn: [LinkedIn](www.linkedin.com/in/ahmed-al-farouq)
+  - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ahmed-al-farouq/)
   - Twitter: [@twitter](https://twitter.com/ahmed_al_farouq)
 
 # :handshake: Contributing
